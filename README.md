@@ -1,2 +1,4 @@
 # UCA2018
-+ Tree BST
++ com/ds/tree Tree BST
++ com/algo/tree Tree Traversal Techniques using Iteration
++ com/algo/tree Tree Views
