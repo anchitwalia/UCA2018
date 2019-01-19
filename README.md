@@ -1,15 +1,18 @@
 # UCA2018
 
 # Tree
-+ java/com/ds/tree - BST.java
-+ java/com/algo/tree - BSTTraversals.java
-+ java/com/algo/tree - Tree Views
-
-+ java - BSTTest.java
-+ java - BSTTraversalsTest.java
-+ java - BSTViewsTest.java
++ BST.java
++ BSTTraversals.java
++ BSTView.java
 
 # Stacks
++ Expression.java
++ LargestRectangleArea.java
++ NearestSmallerElement.java
++ RedundantBraces.java
++ SlidingWindow.java
++ RainWaterTrapped.java
+
 # Queues
 # Graphs
 # Linked List
