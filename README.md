@@ -5,7 +5,7 @@
 + BSTTraversals.java
 + BSTView.java
 
-# Stacks
+# Stacks & Queues
 + Expression.java
 + LargestRectangleArea.java
 + NearestSmallerElement.java
@@ -13,7 +13,6 @@
 + SlidingWindow.java
 + RainWaterTrapped.java
 
-# Queues
 # Graphs
 # Linked List
 # Arrays
