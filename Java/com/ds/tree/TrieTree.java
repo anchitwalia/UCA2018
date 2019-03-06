@@ -92,19 +92,4 @@ public class TrieTree {
             next = new Node[R];
         }
     }
-
-    public static void main(String[] args) {
-         TrieTree obj = new TrieTree();
-         obj.stringInsert("Anchit");
-         obj.stringInsert("Anchit1");
-         obj.stringInsert("Anupam");
-         obj.stringInsert("Bhavita");
-         obj.stringSearch("Anchit1");
-         obj.stringSearch("Anchit");
-         obj.stringSearch("");
-         obj.stringSearch("Bhavita");
-         obj.delete("Anchit1");
-         obj.stringSearch("Anchit");
-         obj.stringSearch("Anchit1");
-    }
 }
