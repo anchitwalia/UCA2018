@@ -5,6 +5,7 @@
 + BSTTraversals.java
 + BSTView.java
 + TrieTree.java
++ AVL.java
 
 # Stacks & Queues
 + Expression.java
