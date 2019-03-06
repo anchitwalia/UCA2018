@@ -1,4 +1,4 @@
-//package com.ds.tree;
+package com.ds.tree;
 
 public class TrieTree {
     private static final int R = 256;
