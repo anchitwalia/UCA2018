@@ -113,46 +113,4 @@ public class PallindromeList {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-
-        PallindromeList obj1 = new PallindromeList();
-        PallindromeList obj2 = new PallindromeList();
-        PallindromeList obj3 = new PallindromeList();
-        PallindromeList obj4 = new PallindromeList();
-        PallindromeList obj5 = new PallindromeList();
-
-        int[] A1 = {3, 3, 4, 4, 4, 4, 3, 3};
-        int[] A2 = {1, 2, 3, 4, 5};
-        int[] A3 = {4 ,2, 1};
-        int[] A4 = {3};
-        int[] A5 = {6, 7};
-
-        for(int i : A1) { obj1.addEnd(i); }
-        for(int i : A2) { obj2.addEnd(i); }
-        for(int i : A3) { obj3.addEnd(i); }
-        for(int i : A4) { obj4.addEnd(i); }
-        for(int i : A5) { obj5.addEnd(i); }
-
-
-        System.out.println();
-        System.out.print("Obj1 = "+ obj1.isPallindrome());
-        System.out.println();
-        System.out.print("Obj2 = "+ obj2.isPallindrome());
-        System.out.println();
-        System.out.print("Obj3 = "+ obj3.isPallindrome());
-        System.out.println();
-        System.out.print("Obj4 = "+ obj4.isPallindrome());
-        System.out.println();
-        System.out.print("Obj5 = "+ obj5.isPallindrome());
-        System.out.println();
-        System.out.println();
-
-        obj1.printList();
-        obj2.printList();
-        obj3.printList();
-        obj4.printList();
-        obj5.printList();
-
-    }
 }
