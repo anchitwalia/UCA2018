@@ -169,7 +169,7 @@ public class BST<K extends Comparable<K>, V> {
     }
     private int heightOf(Node curr) {
         if(curr == null) {
-            return 0;
+            return -1;
         }
         else {
             return 1 + Math.max(heightOf(curr.left), heightOf(curr.right));
